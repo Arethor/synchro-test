@@ -1,2 +1,2 @@
 # synchro-test
-Prueba de sincronización VSCode, Github, Git
+Prueba de sincronización → VSCode, Github, Git
