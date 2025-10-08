@@ -2,24 +2,29 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Juego de Adivinar</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
-    <main>
+    <div class="container">
+        <h1>Adivina el número</h1>
+        <p>Estoy pensando en un número entre 1 y 10...</p>
 
-        <section>
+        <!-- Pedimos el número al usuario -->
+        <input type="number" id="guess" min="1" max="10" placeholder="Tu número">
 
-            <h1>Hola Mundo!</h1>
-            <h2>Encabezado de tipo</h2>
-            <div>
-                
-            </div>
+        <!-- Botón para comprobar el número -->
+        <button id="checkBtn">Comprobar</button>
 
-        </section>
+        <!-- Mensaje de comprobación -->
+        <p id="message"></p>
 
-    </main>
+        <!-- botón para volver a jugar -->
+        <button id="resetBtn" class="hidden">Jugar otra vez</button>
+    </div>
+
+  <script src="assets/js/script.js"></script>
     
 </body>
 </html>

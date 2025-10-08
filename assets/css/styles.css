@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+
+    margin: 0;
+}
+
+/* Estilo del contenedor */
+.container {
+    text-align: center;
+
+    background: #00000033;
+    box-shadow: 0 4px 10px #ffffff4d;
+    border-radius: 20px;
+
+    padding: 50px;
+}
+
+/* Estilos de los inputs y botones */
+input {
+    width: 100px;
+    text-align: center;
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+
+    background-color: #0984e3;
+    border-radius: 5px;
+    color: white;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
+
+/* Clase para ocultar elementos del html */
+.hidden {
+    display: none;
+}
