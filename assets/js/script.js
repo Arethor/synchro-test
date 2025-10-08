@@ -24,6 +24,7 @@ checkBtn.addEventListener('click', () => {
     if (intento === numeroSecreto) {
         message.textContent = "¡CORRECTO! Adivinaste el número.";
         checkBtn.disabled = true;
+        checkBtn.classList.add('hidden');
         resetBtn.classList.remove('hidden');
     } else if (intento > numeroSecreto) {
         message.textContent = "Demasiado alto, intenta con uno menor.";
@@ -40,4 +41,5 @@ resetBtn.addEventListener('click', () => {
     message.textContent = "";
     checkBtn.disabled = false;
     resetBtn.classList.add('hidden');
+    checkBtn.classList.remove('hidden');
 });
